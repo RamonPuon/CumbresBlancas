@@ -1,5 +1,7 @@
 # website-v3
 
+Proyecto de sitio web para organización cumbres blancas.
+
 ## Project setup
 ```
 npm install
