@@ -1,17 +1,20 @@
 <template>
   <UpperNav/>
   <HomeFirst/>
+  <HomeNews/>
 </template>
 
 <script>
 import UpperNav from './components/UpperNav.vue'
 import HomeFirst from './components/HomeFirst.vue'
+import HomeNews from './components/HomeNews.vue'
 
 export default {
   name: 'App',
   components: {
     UpperNav,
-    HomeFirst
+    HomeFirst,
+    HomeNews
   }
 }
 </script>
