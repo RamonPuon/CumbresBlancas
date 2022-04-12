@@ -47,14 +47,15 @@ export default {
         background-size: cover;
         background-position-y: -100px;
         background-repeat: no-repeat;
+        padding-top: 10px;
         
     }
     .home_news h2{
         font-size: 3rem;
+        align-content: left;
     }
 
     .news{
-        padding: 0px;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
@@ -67,5 +68,8 @@ export default {
     }
     .new img{
         width: 100%;
+    }
+    .new p{
+        color: black;
     }
 </style>

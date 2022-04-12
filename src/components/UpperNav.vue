@@ -1,25 +1,25 @@
 <template>
     <div>
         <header class="header">
-        <img src="../assets/mexico.png" alt="mexico" class="header_icon">
-        <p>ES</p>
-        <i class="uil uil-angle-down"></i>
-    </header>
-    <nav>
-        <img src="../assets/logo_blanco.png" alt="logo" class="cumbre_logo">
-        <div class="nav_title">
-            <p>¿Quiénes somos?</p>
-        </div>
-        <div class="nav_title">
-            <p>Proyectos</p>
-        </div>
-        <div class="nav_title">
-            <p>¿Cómo ayudar?</p>
-        </div>
-        <div class="nav_title contact_title">
-            <p>Contáctanos</p>
-        </div>
-    </nav>
+            <img src="../assets/mexico.png" alt="mexico" class="header_icon">
+            <p>ES</p>
+            <i class="uil uil-angle-down"></i>
+        </header>
+        <nav>
+            <img src="../assets/logo_blanco.png" alt="logo" class="cumbre_logo">
+            <div class="nav_title">
+                <p>¿Quiénes somos?</p>
+            </div>
+            <div class="nav_title">
+                <p>Proyectos</p>
+            </div>
+            <div class="nav_title">
+                <p>¿Cómo ayudar?</p>
+            </div>
+            <div class="nav_title contact_title">
+                <p>Contáctanos</p>
+            </div>
+        </nav>
     </div>
 </template>
 
