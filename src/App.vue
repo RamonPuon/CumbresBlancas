@@ -1,20 +1,17 @@
 <template>
   <UpperNav/>
   <HomeFirst/>
-  <HomeSecond/>
 </template>
 
 <script>
 import UpperNav from './components/UpperNav.vue'
 import HomeFirst from './components/HomeFirst.vue'
-import HomeSecond from './components/HomeSecond.vue'
 
 export default {
   name: 'App',
   components: {
     UpperNav,
-    HomeFirst,
-    HomeSecond
+    HomeFirst
   }
 }
 </script>
