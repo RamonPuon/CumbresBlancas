@@ -12,7 +12,7 @@
                 </p>
            </div>
            <div class="new">
-               <img src="https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="mountain">
+               <img src="../assets/conejo.jpeg" alt="conejo">
                <p>
                Lorem Ipsum es simplemente el texto de relleno de las imprentas y
                 archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de
