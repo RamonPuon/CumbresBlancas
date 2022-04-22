@@ -3,6 +3,12 @@
 Proyecto de sitio web para organización cumbres blancas.
 
 ## Project setup
+
+## Installing npm and Vue CLI dependencies
+
+Instrucciones para césar
+
+
 ```
 npm install
 ```
