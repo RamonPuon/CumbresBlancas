@@ -2,11 +2,13 @@
 <script>
 import HomeComp from './components/HomeComp.vue';
 import ProyectPage from './components/ProyectPage.vue';
-import NotFound from './components/NotFound.vue'
+import NotFound from './components/NotFound.vue';
+import TeamPage from './components/TeamPage.vue';
 
 const routes = {
   '/': HomeComp,
-  '/proyects': ProyectPage
+  '/proyects': ProyectPage,
+  '/team': TeamPage
 }
 
 export default {
@@ -44,7 +46,7 @@ export default {
               <img src="./assets/logo_blanco.png" alt="logo" class="cumbre_logo">
             </a>
             <div class="nav_title">
-                <p>¿Quiénes somos?</p>
+                <a href="#/team">¿Quiénes somos?</a>
             </div>
             <div class="nav_title">
                 <a href="#/proyects">Proyectos</a>
