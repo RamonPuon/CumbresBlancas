@@ -16,7 +16,7 @@
 
                 <div class="contact_content">
                     <label for="" class="contact_label">¿Como podemos ayudarle</label>
-                    <textarea name="message" id="" cols="0" rows="10" class="contact_input"></textarea>
+                    <textarea name="message" id="" cols="0" rows="10" class="contact_message"></textarea>
                 </div>
             </form>
         </div>
@@ -47,14 +47,26 @@ export default {
     .form_container{
         display: flex;
         margin-bottom: 4rem;
+        padding-top: 1rem;
     }
 
     .contact_content {
         display: flex;
         flex-direction: column;
+        padding-bottom: 1rem;
+        align-items: flex-start;
     }
 
     .contact_input{
+        outline: none;
+        border:none;
+        border-bottom: solid;
+        border-bottom-width: 0.1rem;
+        border-block-color: #2c3e50;
+        padding-top: 4rem;
+    }
+
+    .contact_message{
         outline: none;
         border:none;
         border-bottom: solid;
