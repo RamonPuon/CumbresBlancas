@@ -1,4 +1,4 @@
-# website-v3
+# Cumbres Blancas Website
 
 Proyecto de sitio web para organización cumbres blancas.
 
@@ -32,7 +32,6 @@ Now you can easily install vue using npm. Just type the following command and np
 npm install -g @vue/cli
 ```
 
-# I would prefer if we continue the following steps together in the next daily meeting
 
 ## Project Set up
 
