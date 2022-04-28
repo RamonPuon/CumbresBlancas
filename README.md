@@ -6,7 +6,6 @@ Proyecto de sitio web para organización cumbres blancas.
 
 ## Installing npm and Vue CLI dependencies
 
-Instrucciones para césar
 
 First you need to install Node, I guess Vue uses javascript Backend to pack these kinds of projects.
 Here is the [Installation website](https://nodejs.org/en/download/ "Nodejs Website")

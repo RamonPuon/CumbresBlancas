@@ -60,7 +60,10 @@ export default {
         </nav>
   </div>
   <component :is="currentView"/>
-
+  <footer>
+      <p>Cumbres Blancas México 2022. Todos los derechos reservados.</p>
+      <p>Diseño UX por Mariana Gisela Martínez Ortíz Contact/Info marianh_gismar@hotmail.com</p>
+  </footer>
 </template>
 
 <style>
@@ -122,5 +125,15 @@ body{
     a{
       text-decoration: none;
       color: white;
+    }
+    footer{
+      background-color: black;
+      height: 104px;
+      
+    }
+    footer p{
+      color: white;
+      font-size: 0.9rem;
+      font-weight: 600;
     }
 </style>

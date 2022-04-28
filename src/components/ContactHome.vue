@@ -18,6 +18,15 @@
                     <label for="" class="contact_label">¿Como podemos ayudarle</label>
                     <textarea name="message" id="" cols="0" rows="10" class="contact_message"></textarea>
                 </div>
+
+                <div class="contact_button_container">
+                    <div>
+                        <input type="checkbox" name="suscribe" id="suscribe">
+                        <label for="suscribe">Suscribirme</label>
+                    </div>
+                    
+                    <input type="button" value="Enviar">
+                </div>
             </form>
         </div>
     </section>
@@ -64,6 +73,7 @@ export default {
         border-bottom-width: 0.1rem;
         border-block-color: #2c3e50;
         padding-top: 4rem;
+        width: 20rem;
     }
 
     .contact_message{
@@ -72,6 +82,13 @@ export default {
         border-bottom: solid;
         border-bottom-width: 0.1rem;
         border-block-color: #2c3e50;
+        width: 20rem;
+        height: 9rem;
+    }
+
+    .contact_button_container{
+        display: flex;
+        justify-content: space-evenly;
     }
 
     
