@@ -111,11 +111,11 @@ body{
 
     }
 
-    .contact_title{
+    .contact_nav{
     color: black;
     background-color: white;
     }
-    .contact_title p{
+    .contact_nav p{
     padding: 4px 20px;
     margin: 0;
     }
