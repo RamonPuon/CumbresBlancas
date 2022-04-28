@@ -54,7 +54,7 @@ export default {
             <div class="nav_title">
                 <p>¿Cómo ayudar?</p>
             </div>
-            <div class="nav_title contact_title">
+            <div class="nav_title contact_nav">
                 <p>Contáctanos</p>
             </div>
         </nav>
