@@ -71,10 +71,12 @@ export default {
     background-color: black;
     padding: 12px;
     border-radius: 0 5px 5px 0;
+    position: fixed;
+    left: 0rem;
+    bottom: 50%;
     }
     .first_text{
-    position: relative;
-    left: -208px;
+        padding-left: 12rem;
     }
     .first_text > p{
     font-size: 64px;
@@ -107,6 +109,10 @@ export default {
     background-color: black;
     color: white;
     border-radius: 5px 0 0 5px;
+    position: fixed;
+    right: 0rem;
+    bottom: 50%;
+
     }
 
 

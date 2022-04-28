@@ -4,11 +4,13 @@ import HomeComp from './components/HomeComp.vue';
 import ProyectPage from './components/ProyectPage.vue';
 import NotFound from './components/NotFound.vue';
 import TeamPage from './components/TeamPage.vue';
+import HelpPage from './components/HelpPage.vue';
 
 const routes = {
   '/': HomeComp,
   '/proyects': ProyectPage,
-  '/team': TeamPage
+  '/team': TeamPage,
+  '/help': HelpPage
 }
 
 export default {
@@ -52,7 +54,7 @@ export default {
                 <a href="#/proyects">Proyectos</a>
             </div>
             <div class="nav_title">
-                <p>¿Cómo ayudar?</p>
+                <a href="#/help">¿Cómo ayudar?</a>
             </div>
             <div class="nav_title contact_nav">
                 <p>Contáctanos</p>
