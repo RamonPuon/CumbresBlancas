@@ -61,6 +61,9 @@ export default {
             </div>
         </nav>
   </div>
+
+  
+
   <component :is="currentView"/>
   <footer>
       <p>Cumbres Blancas México 2022. Todos los derechos reservados.</p>
