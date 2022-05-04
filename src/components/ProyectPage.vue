@@ -3,13 +3,16 @@
     <section class="proyect_container">
         <div class="proyect_left">
             Monitoreo de Glaciares
+            <i class="uil uil-angle-down"></i>
         </div>
         <div class="proyect_right">
             <div class="proyect_upperright">
                 Educación
+                <i class="uil uil-angle-down"></i>
             </div>
             <div class="proyect_bottomright">
                 Cumbres Blancas & Limpias
+                <i class="uil uil-angle-down"></i>
             </div>
         </div>
     </section>
@@ -52,5 +55,9 @@ export default {
         height: 250px;
         background-image: url("../assets/placeholder.jpg");
         background-size: cover;
+    }
+
+    .uil-angle-down{
+        font-size: 1.5rem;
     }
 </style>
