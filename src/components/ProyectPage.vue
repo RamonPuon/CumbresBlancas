@@ -17,6 +17,10 @@
         </div>
     </section>
 
+    <section v-for="item in images" :key="item.id">
+        <img src={{item.image}} alt="image2">
+    </section>
+
 </template>
 
 <script>
@@ -24,7 +28,7 @@ export default {
     name: "ProyectPage",
     data() {
         return {
-            image: "@/assets/placeholder_2.jpg"
+            images:[{image: "../assets/conejo.jpeg"}, {image: "../assets/Citlaltepetl.jpeg"}]
         };
     },
 }

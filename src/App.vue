@@ -54,7 +54,7 @@ export default {
                 <a href="#/proyects">Proyectos</a>
             </div>
             <div class="nav_title">
-                <a href="#/help">¿Cómo ayudar?</a>
+                <a href="#/help">¿Cómo apoyar?</a>
             </div>
             <div class="nav_title contact_nav">
                 <p>Contáctanos</p>
