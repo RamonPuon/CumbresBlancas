@@ -16,11 +16,17 @@
             </div>
         </div>
     </section>
+
 </template>
 
 <script>
 export default {
-    name: "ProyectPage"
+    name: "ProyectPage",
+    data() {
+        return {
+            image: "@/assets/placeholder_2.jpg"
+        };
+    },
 }
 </script>
 
@@ -33,7 +39,7 @@ export default {
     .proyect_left{
         width: 50%;
         height: 500px;
-        background-image: url("../assets/placeholder.jpg");
+        background-image: url("../assets/Glaciares.jpeg");
         background-size: cover;
     }
 
@@ -53,7 +59,7 @@ export default {
     .proyect_bottomright{
         width: 100%;
         height: 250px;
-        background-image: url("../assets/placeholder.jpg");
+        background-image: url("../assets/CumbresBlancas_limbias.png");
         background-size: cover;
     }
 
