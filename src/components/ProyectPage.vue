@@ -1,5 +1,4 @@
 <template>
-   
     <section class="proyect_container">
         <div class="proyect_left">
             Monitoreo de Glaciares
