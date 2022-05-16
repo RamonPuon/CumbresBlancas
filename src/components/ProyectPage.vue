@@ -1,23 +1,8 @@
 <template>
     <section class="proyect_container">
-        <div class="proyect_left">
-            Monitoreo de Glaciares
-            <i class="uil uil-angle-down"></i>
-        </div>
-        <div class="proyect_right">
-            <div class="proyect_upperright">
-                Educación
-                <i class="uil uil-angle-down"></i>
-            </div>
-            <div class="proyect_bottomright">
-                Cumbres Blancas & Limpias
-                <i class="uil uil-angle-down"></i>
-            </div>
-        </div>
-    </section>
-
-    <section v-for="item in images" :key="item.id">
-        <img src={{item.image}} alt="image2">
+       <div class="proyect1">
+           <h2>Conoce Nuestros Proyectos</h2>
+       </div>
     </section>
 
 </template>
@@ -39,34 +24,17 @@ export default {
         justify-content: first baseline;
     }
 
-    .proyect_left{
-        width: 50%;
-        height: 500px;
-        background-image: url("../assets/Glaciares.jpeg");
+    .proyect1 {
+        background-image: url('../assets/proyect1.jpeg');
+         width: 100%;
+        height: 650px;
         background-size: cover;
-    }
-
-    .proyect_right{
+        background-position-y: -100px;
+        background-repeat: no-repeat;
         display: flex;
-        flex-direction: column;
-        width: 50%;
+        justify-content: space-between;
+        align-items: center;
     }
 
-    .proyect_upperright{
-        width: 100%;
-        height: 250px;
-        background-image: url("../assets/placeholder.jpg");
-        background-size: cover;
-    }
-
-    .proyect_bottomright{
-        width: 100%;
-        height: 250px;
-        background-image: url("../assets/CumbresBlancas_limbias.png");
-        background-size: cover;
-    }
-
-    .uil-angle-down{
-        font-size: 1.5rem;
-    }
+    
 </style>

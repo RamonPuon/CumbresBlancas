@@ -4,7 +4,11 @@
             <span>¡Dona ahora!</span>
         </div>    
         <div class="first_text">
-            <p>SE EXTINGUEN<br> LOS GLACIARES<br> EN MÉXICO</p>
+            <span class="red22">SE EXTINGUEN</span>
+            <br> 
+            <span>LOS GLACIARES</span>
+            <br> 
+            <span>EN MÉXICO</span>
             <div class="first_sub">
                 <div class="first_sub_sub">
                     <h1>7</h1>
@@ -31,10 +35,7 @@
         <div class="head_second">
             <h2>LOS GLACIARES<br> EN MÉXICO</h2>
             <p>
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas y<br>
-                archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de<br>
-                las industrias desde el año 1500, cuando un impresor (N. del T. persona<br>
-                que se dedica a la imprenta) desconocido usó una galería de textos.
+                Actualmente solo dos zonas tienen glaciares en México. Después de la pequeña edad de hielo <br> solo han existido tres volcanes activos que han albergado glaciares: Popocatepetl, Iztaccíhuatl y Citlaltépetl.<br> Los glaciares de México se encuentran condenados a la extinción a causa del cambio climático,  por esto, <br> es urgente generar estrategias para la mitigación y adaptación de los impactos del cambio climático <br> y trabajar hacia un compromiso y una acción colectiva para la preservación de los entornos de montaña.
             </p>
         </div>
         <div class="second_images">
@@ -78,8 +79,13 @@ export default {
     .first_text{
         padding-left: 12rem;
     }
-    .first_text > p{
+    .first_text > span{
     font-size: 64px;
+    font-weight: bold;
+    }
+
+    .red22 {
+        color: rgb(250,42,94);
     }
 
     .first_sub{
